@@ -66,11 +66,13 @@ h1 { font-size: clamp(1.9rem, 3.6vw, 3.25rem); line-height: 1.39; margin-top: 13
 .featured-info { display: flex; align-items: center; gap: 14px; min-width: 0; }
 .featured h3 { font-size: clamp(1.06rem, 2vw, 1.45rem); line-height: 1.35; margin-block: 5px; }
 .course-icon { flex: none; display: grid; place-items: center; width: 39px; height: 39px; border-radius: 9px; font-weight: 700; }
+.course-logo { width: 100%; height: 100%; object-fit: cover; border-radius: 9px; }
 .icon-featured { width: 56px; height: 56px; background: #ffce80; color: #713b08; font-family: monospace; font-size: 1.35rem; }
 .icon-js { background: #fde047; color: #201700; }
 .icon-java { background: #ffedd5; color: #9a3412; }
 .icon-spring { background: #dcfce7; color: #166534; }
 .icon-stack { background: #ede9fe; color: #5b21b6; }
+.icon-php { background: #ececec; color: #d10023; }
 .badge { display: inline-block; border-radius: 999px; padding: 3px 9px; font-weight: 700; font-size: .75rem; line-height: 1.55; }
 .badge-open { color: #14532d; background: #dcfce7; }
 .badge-soon { color: #374151; background: #e9edf3; }

@@ -123,7 +123,7 @@ export default function App() {
             {upcoming.map((course) => (
               <article className="upcoming-card" key={course.title}>
                 <div className="card-top">
-                  <span className={`course-icon icon-${course.theme}`} aria-hidden="true">{course.icon}</span>
+                  <span className={`course-icon icon-${course.theme}`} aria-hidden="true"><img className='course-logo' src={course.icon} alt={course.title} /></span>
                   <span className="badge badge-soon">{t.soon}</span>
                 </div>
                 <h3 lang="en">{course.title}</h3>
